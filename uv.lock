@@ -2147,6 +2147,7 @@ source = { editable = "." }
 dependencies = [
     { name = "chromadb" },
     { name = "langchain" },
+    { name = "langchain-classic" },
     { name = "langchain-community" },
     { name = "langchain-google-genai" },
     { name = "langchain-openai" },
@@ -2159,6 +2160,7 @@ dependencies = [
 requires-dist = [
     { name = "chromadb", specifier = ">=1.5.9" },
     { name = "langchain", specifier = ">=1.3.15" },
+    { name = "langchain-classic", specifier = ">=1.0.8" },
     { name = "langchain-community", specifier = ">=0.4.2" },
     { name = "langchain-google-genai", specifier = ">=4.3.4" },
     { name = "langchain-openai", specifier = ">=1.5.1" },
